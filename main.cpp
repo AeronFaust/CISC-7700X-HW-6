@@ -129,7 +129,7 @@ int main()
     for (int i = 0; i < testingData.size(); i++)
     {
         testingLabels.push_back(model.predict(testingData[i].features, 1));
-        cout << i << endl;
+        cout << i << endl; //To check progress since this takes really long
     }
 
     cout << "Done computing labels" << endl;
